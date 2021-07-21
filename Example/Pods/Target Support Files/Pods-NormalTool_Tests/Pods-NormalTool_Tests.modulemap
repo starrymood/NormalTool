@@ -1,0 +1,6 @@
+framework module Pods_NormalTool_Tests {
+  umbrella header "Pods-NormalTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

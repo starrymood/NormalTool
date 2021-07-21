@@ -1,0 +1,27 @@
+PODS:
+  - MJExtension (3.3.0)
+  - NormalTool (0.1.0):
+    - MJExtension
+    - YYCache
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - NormalTool (from `/Users/wancai/Desktop/NormalTool/NormalTool`)
+
+SPEC REPOS:
+  trunk:
+    - MJExtension
+    - YYCache
+
+EXTERNAL SOURCES:
+  NormalTool:
+    :path: "/Users/wancai/Desktop/NormalTool/NormalTool"
+
+SPEC CHECKSUMS:
+  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  NormalTool: 7fd4c58d2a894837b127c6e647e54978c8708436
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: d587a1f529c01a24163c354697bbbc53afb6c239
+
+COCOAPODS: 1.10.1

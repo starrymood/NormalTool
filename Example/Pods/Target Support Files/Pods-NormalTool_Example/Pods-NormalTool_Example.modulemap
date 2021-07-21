@@ -1,0 +1,6 @@
+framework module Pods_NormalTool_Example {
+  umbrella header "Pods-NormalTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
