@@ -7,6 +7,8 @@
 //
 
 #import "FFViewController.h"
+#import "KKTool.h"
+#import "FFLanguageConfig.h"
 
 @interface FFViewController ()
 
@@ -18,6 +20,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    FFLanguageConfig.userLanguage = @"en";
+    KKTool *tool = KKTool.new;
+    [tool say];
 }
 
 - (void)didReceiveMemoryWarning

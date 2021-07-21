@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'NormalTool_Example' do
-  pod 'NormalTool', :path => '../'
+  pod 'NormalTool', :path => '/Users/wancai/Desktop/NormalTool/NormalTool'
 
   target 'NormalTool_Tests' do
     inherit! :search_paths
