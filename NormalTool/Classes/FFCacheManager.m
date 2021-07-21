@@ -10,6 +10,7 @@
 #import <CommonCrypto/CommonDigest.h>
 #import "FFCacheNormalTool.h"
 #import "FFCacheModel.h"
+#import "NSObject+MJKeyValue.h"
 
 static const CGFloat unit = 1024.0;
 @interface FFCacheManager ()

@@ -7,7 +7,6 @@
 //
 
 #import "FFViewController.h"
-#import "KKTool.h"
 #import "FFLanguageConfig.h"
 
 @interface FFViewController ()
@@ -23,8 +22,6 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     FFLanguageConfig.userLanguage = @"en";
-    KKTool *tool = KKTool.new;
-    [tool say];
 }
 
 - (void)didReceiveMemoryWarning
